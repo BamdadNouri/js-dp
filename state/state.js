@@ -43,6 +43,7 @@ class ATM{
 
 var atm = new ATM()
 
+atm.changeState()
 
 
 

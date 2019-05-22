@@ -16,12 +16,12 @@ var module = (function(){
         publicVar: publicVar,
         publicFunction: publicFunction
     }
-}())
+})();
 
-console.log(module.privateVar)
-console.log(publicVar)
+console.log(module.privateVar) // undefined
+console.log(module.publicVar)
 module.publicFunction()
-module.privateFunction()
+//module.privateFunction() //type error
 
 
 
